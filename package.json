@@ -13,6 +13,7 @@
   "scripts": {
     "test": "node ./tests/lib/rules/no-fetch-credentials.js"
   },
+  "bugs": "https://github.com/piatra/eslint-plugin-fetch/issues",
   "dependencies": {
     "requireindex": "~1.1.0"
   },
