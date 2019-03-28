@@ -1,23 +1,23 @@
 {
-  "name": "eslint-plugin-no-fetch-default",
-  "version": "0.0.0",
+  "name": "eslint-plugin-fetch",
+  "version": "0.0.1",
   "description": "Prevent default fetch() calls",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "fetch"
   ],
   "author": "Andrei Oprea",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "node ./tests/lib/rules/no-fetch-default.js"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
-    "mocha": "^3.1.2"
+    "eslint": "~3.9.1"
   },
   "engines": {
     "node": ">=0.10.0"
