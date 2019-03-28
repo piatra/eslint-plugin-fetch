@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-fetch",
-  "version": "0.0.1",
-  "description": "Prevent default fetch() calls",
+  "version": "0.0.2",
+  "description": "Prevent default fetch() call behaviour",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -11,7 +11,7 @@
   "author": "Andrei Oprea",
   "main": "index.js",
   "scripts": {
-    "test": "node ./tests/lib/rules/no-fetch-default.js"
+    "test": "node ./tests/lib/rules/no-fetch-credentials.js"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
@@ -20,7 +20,7 @@
     "eslint": "~3.9.1"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.9.0"
   },
   "license": "ISC"
 }
