@@ -1,6 +1,6 @@
-# eslint-plugin-no-fetch-default
+# eslint-plugin-fetch
 
-Prevent default fetch() calls
+Prevent default fetch() behaviours
 
 ## Installation
 
@@ -10,22 +10,22 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-no-fetch-default`:
+Next, install `eslint-plugin-fetch`:
 
 ```
-$ npm install eslint-plugin-no-fetch-default --save-dev
+$ npm install eslint-plugin-fetch --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-no-fetch-default` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-fetch` globally.
 
 ## Usage
 
-Add `no-fetch-default` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `fetch` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "no-fetch-default"
+        "fetch"
     ]
 }
 ```
@@ -36,16 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-fetch-default/rule-name": 2
+        "fetch/no-fetch-credentials": 2
     }
 }
 ```
-
-## Supported Rules
-
-* Fill in provided rules here
-
-
-
-
-
