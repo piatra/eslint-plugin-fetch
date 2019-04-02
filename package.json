@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-fetch-options",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Prevent default fetch() call behaviour",
   "keywords": [
     "eslint",
