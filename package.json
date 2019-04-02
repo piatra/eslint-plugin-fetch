@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-fetch-options",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Prevent default fetch() call behaviour",
   "keywords": [
     "eslint",
@@ -14,14 +14,15 @@
     "test": "node ./tests/lib/rules/no-fetch-credentials.js"
   },
   "bugs": "https://github.com/piatra/eslint-plugin-fetch/issues",
-  "dependencies": {
-    "requireindex": "~1.1.0"
-  },
   "devDependencies": {
-    "eslint": "~3.9.1"
+    "eslint": "3.9.1"
   },
   "engines": {
     "node": ">=0.9.0"
   },
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piatra/eslint-plugin-fetch.git"
+  },
+  "license": "MIT"
 }
