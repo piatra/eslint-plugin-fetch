@@ -15,7 +15,7 @@
   },
   "bugs": "https://github.com/piatra/eslint-plugin-fetch/issues",
   "devDependencies": {
-    "eslint": "3.9.1"
+    "eslint": "4.18.2"
   },
   "engines": {
     "node": ">=0.9.0"
